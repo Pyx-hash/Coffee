@@ -54,7 +54,7 @@ loginButton.addEventListener('click', () => {
 
             setTimeout(() => {
                 showToast('Logged in successfully!', 'success');
-                window.location.href = "index.html"; 
+                window.location.href = "home.html"; 
             }, 1000);
         })
         .catch((error) => {

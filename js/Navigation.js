@@ -25,7 +25,7 @@ document.getElementById("SignOutForm-button").addEventListener("click", function
         document.getElementById("ProductsForm").style.display = "none";
         document.getElementById("OrdersForm").style.display = "none";
 
-        window.location.href = "loginRegister.html";
+        window.location.href = "index.html";
     } else {
         console.log("Logout Canceled.");
     }
